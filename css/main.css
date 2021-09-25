@@ -16,9 +16,11 @@
 /* Header */
 
 header{
+    background-color: #fff;
     position: fixed;
     width: 100%;
     padding: 0 20px;
+    z-index: 10;
 }
 
 header ul li{
@@ -53,4 +55,57 @@ header ul li a{
     color: #fff;
     vertical-align: middle;
     padding: 3px 15px;
+}
+
+/* Hero */
+
+.hero{
+    padding-top: 60px;
+    height: 70vh;
+    background-color: #b4d0e7;
+}
+
+.hero-content{
+    margin: 0 8%;
+}
+
+.hero-text{
+    transform: translateY(20%);
+}
+
+.hero-text h1{
+    width: 80%;
+    font-size: 60px;
+}
+
+.hero-text h2{
+    padding-top: 5%;
+    width: 35%;
+    padding-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.hero-text p{
+    padding-top: 20px;
+    width: 30%;
+}
+
+.btn{
+    color: #fff;
+    text-decoration: none;
+    background-color: #0061ff;
+    padding: 10px 40px;
+    font-weight: 500;
+}
+
+.hero-content i{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.hero-content img{
+    width: 1000px;
+    float: right;
+    transform: translateY(-150px);
 }
