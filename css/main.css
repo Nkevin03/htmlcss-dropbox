@@ -7,7 +7,6 @@
 
 ul{
     list-style: none;
-    padding-bottom: 50px;
 }
 
 /* Preset */
@@ -146,6 +145,12 @@ header ul li a{
     float: left;
 }
 
+.enterprise{
+    width: 100%;
+    height: 240px;
+    margin-top: 60px;
+}
+
 .mg{
     margin: 0 5%;
 }
@@ -223,4 +228,32 @@ header ul li a{
 
 .points i{
     color: #0061ff;
+}
+
+.details ul{
+    padding-bottom: 50px;
+}
+
+.btn-enterprise{
+    width: 30%;
+    float: right;
+    background-color: #0061ff;
+    padding: 10px 0;
+    font-weight: 500;
+    text-align: center;
+    transform: translateY(-135px);
+}
+
+.btn-enterprise a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.text-enterprise{
+    width: 70%;
+}
+
+.text-enterprise h4{
+    padding-top: 15px;
+    padding-bottom: 35px;
 }
