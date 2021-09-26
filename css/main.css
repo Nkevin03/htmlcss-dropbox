@@ -21,6 +21,10 @@ ul{
     margin: 0 15%;
 }
 
+.title{
+    font-size: 40px;
+}
+
 /* Header */
 
 header{
@@ -294,5 +298,26 @@ header ul li a{
     padding: 8px 15px;
     text-decoration: none;
     color: #000;
+    font-weight: 500;
+}
+
+/* Card business */
+
+.business{
+    margin-top: 110px;
+}
+
+.card-business{
+    width: 30%;
+    float: left;
+}
+
+.card-business img{
+    width: 100%;
+}
+
+.card-business p{
+    padding-top: 20px;
+    padding-bottom: 50px;
     font-weight: 500;
 }
