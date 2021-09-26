@@ -321,3 +321,187 @@ header ul li a{
     padding-bottom: 50px;
     font-weight: 500;
 }
+
+.card-business span{
+    text-decoration: underline;
+}
+
+.team{
+    padding-top: 100px;
+}
+
+.team h2{
+    padding-bottom: 40px;
+}
+
+.team a{
+    color: #0061ff;
+}
+
+/* Team */
+
+.block{
+    padding-top: 50px;
+}
+
+/* Block left */
+
+.block-left{
+    float: left;
+    width: 30%;
+}
+
+.img1{
+    position: relative;
+    background: #a2d39b;
+    width: 50%;
+    height: 235px;
+    border: 10px solid #d0e9cd;
+    float: left;
+}
+
+.img1 img{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    width: 70%;
+}
+
+.img2{
+    position: relative;
+    background: #61082b;
+    width: 50%;
+    height: 235px;
+    float: left;
+}
+
+.img2 img{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+}
+
+.img3{
+    position: relative;
+    background: #0093ce;
+    width: 50%;
+    height: 235px;
+    float: left;
+}
+
+.img3 img{
+    position: absolute;
+    width: 60%;
+    top: 40%;
+    left: 16%;
+}
+
+.img4{
+    position: relative;
+    background: #ff1c1c;
+    width: 50%;
+    height: 235px;
+    float: left;
+}
+
+.img4 img{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 50%;
+}
+
+.block img{
+    filter: invert(1);
+}
+
+/* Block center */
+
+.block-center{
+    background-color: #f5f5f5;
+    width: 40%;
+    height: 470px;
+    padding: 55px;
+    float: left;
+}
+
+.img-block-center img{
+    width: 20%;
+    filter: invert(0);
+}
+
+.block-center hr{
+    color: #dedee0;
+    width: 20%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.block-center p{
+    font-weight: 500;
+}
+
+.block-center p:last-child{
+    padding-top: 50px;
+}
+
+.img5{
+    position: relative;
+    background: #d5001f;
+    width: 50%;
+    height: 235px;
+    float: left;
+}
+
+.img5 img{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 50%;
+}
+
+.img6{
+    position: relative;
+    background: #b4d0e7;
+    width: 50%;
+    height: 235px;
+    float: left;
+}
+
+.img6 img{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width: 50%;
+}
+
+.img7{
+    position: relative;
+    background: #0d2481;
+    width: 50%;
+    height: 235px;
+    float: left;
+}
+
+.img7 img{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 50%;
+}
+
+.img8{
+    position: relative;
+    background: #ffd830;
+    width: 50%;
+    height: 235px;
+    float: left;
+}
+
+.img8 img{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+}
