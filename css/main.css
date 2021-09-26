@@ -528,3 +528,30 @@ header ul li a{
     color: #000;
     font-weight: 500;
 }
+
+/* Questions */
+
+.questions{
+    padding-top: 100px;
+}
+
+.questions h4{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.question p{
+    font-weight: 500;
+    line-height: 85px;
+    border-top: 1px solid #dcdcde;
+}
+
+.question i{
+    float: right;
+    line-height: 85px;
+    padding-right: 40px;
+}
+
+.bd{
+    border-bottom: 1px solid #dcdcde;
+}
