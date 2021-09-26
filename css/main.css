@@ -5,12 +5,21 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+ul{
+    list-style: none;
+    padding-bottom: 50px;
+}
+
 /* Preset */
 
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
+}
+
+.content{
+    margin: 0 15%;
 }
 
 /* Header */
@@ -61,7 +70,7 @@ header ul li a{
 
 .hero{
     padding-top: 60px;
-    height: 70vh;
+    height: 80vh;
     background-color: #b4d0e7;
 }
 
@@ -108,4 +117,110 @@ header ul li a{
     width: 1000px;
     float: right;
     transform: translateY(-150px);
+}
+
+/* Plans */
+
+.plans{
+    padding-top: 15%;
+}
+
+.plans h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.checkbox{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.checkbox label{
+    padding-right: 20px;
+}
+
+.plans-card{
+    width: 30%;
+    height: 1000px;
+    border: 1px solid #d0d0d3;
+    float: left;
+}
+
+.mg{
+    margin: 0 5%;
+}
+
+.name{
+    border-bottom: 1px solid #d0d0d3;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.name p{
+    display: inline-block;
+}
+
+.text-card{
+    padding: 40px 25px;
+}
+
+.text-card h3{
+    font-size: 24px;
+}
+
+.price{
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.text-card p:nth-last-child(2){
+    color: #637381;
+}
+
+.details p{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.details{
+    padding-top: 45px;
+}
+
+.details ul li{
+    padding-bottom: 20px;
+}
+
+.btn-plans{
+    width: 100%;
+    color: #fff;
+    background-color: #0061ff;
+    padding: 10px 0;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn-plans a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.buy-now{
+    padding: 35px 0;
+}
+
+.buy-now a{
+    color: #0061ff;
+}
+
+.details hr{
+    width: 15%;
+}
+
+.points h4{
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.points i{
+    color: #0061ff;
 }
