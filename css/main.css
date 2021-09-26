@@ -505,3 +505,26 @@ header ul li a{
     left: 25%;
     width: 50%;
 }
+
+/* Banner */
+
+.banner{
+    background-color: #b4d0e7;
+    height: 300px;
+    padding: 90px 0;
+}
+
+.text-banner{
+    color: #61082b;
+    width: 50%;
+    float: left;
+}
+
+.btn-banner{
+    float: right;
+    background-color: #fff;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
