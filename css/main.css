@@ -122,6 +122,10 @@ header ul li a{
     transform: translateY(-150px);
 }
 
+.arrow{
+    color: #000;
+}
+
 /* Plans */
 
 .plans{
@@ -533,6 +537,7 @@ header ul li a{
 
 .questions{
     padding-top: 100px;
+    padding-bottom: 155px;
 }
 
 .questions h4{
@@ -554,4 +559,56 @@ header ul li a{
 
 .bd{
     border-bottom: 1px solid #dcdcde;
+}
+
+/* Columns */
+
+.columns{
+    background-color: #000000;
+    color: #fff;
+    height: 450px;
+}
+
+.row{
+    width: 20%;
+    float: left;
+    padding-top: 100px;
+}
+
+.row h4{
+    padding-bottom: 20px;
+}
+
+.row a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    line-height: 30px;
+}
+
+/* Footer */
+footer{
+    background-color: #000;
+    color: #fff;
+    line-height: 30px;
+}
+
+footer p{
+    display: inline-block;
+}
+
+.language{
+    border-top: 1px solid #bfbfbf;
+    width: 10%;
+    padding-top: 45px;
+    padding-bottom: 35px;
+}
+
+.language i{
+    font-size: 13px;
+    color: #999999;
+}
+
+.language i:last-child{
+    vertical-align: middle;
 }
