@@ -52,7 +52,13 @@ header ul li a{
     float: left;
 }
 
-.nav-left img{
+.logo{
+    float: left;
+    position: relative;
+    top: 20px;
+}
+
+.logo img{
     padding-right: 30px;
     vertical-align: middle;
 }
